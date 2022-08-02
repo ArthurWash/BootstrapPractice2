@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(33, 33, 33);
+    color: greenyellow;
+    font-family: 'Press Start 2P', cursive;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    border-radius: 10px;
+    transition: all .4s ease-in-out;
+}
+
+img:hover {transform: scale(1.2);}
+
+.btn, .btn-outline-success {color: greenyellow; border-color: greenyellow;}
+
+#pokeball {
+    width: 5%;
+}
